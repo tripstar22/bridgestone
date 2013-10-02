@@ -1,0 +1,274 @@
+//VARIABLES
+$racingRed: #e01910;
+
+//STYLES
+body {
+	background-image: url(../images/bg.png);
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	color: #eee;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	color: #111;
+	z-index: 1;
+}
+
+ul {
+	list-style: none;
+}
+
+footer ul li a:hover {
+	color: $racingRed;
+}
+
+.wrap {
+	margin: 0 5%;
+}
+
+#undefined-sticky-wrapper {
+	z-index: 1;
+}
+
+#featuredDriver {
+	margin-top: 30px;
+}
+
+#featuredDriver .orbit-prev {
+	display: none;
+}
+
+#featuredDriver .orbit-next {
+	display: none;
+}
+
+#drivers, #crashZone {
+	margin-top: 50px;
+}
+
+.top-bar {
+	width: 100%;
+}
+
+.top-bar-section ul li {
+	font-family: 'Roboto', sans-serif;
+}
+
+.driverHeader {
+	margin-bottom: 0px;
+}
+
+.mapPattern {
+	z-index: 1;
+}
+
+.driverInfo {
+	margin-top: 20px;
+}
+
+.orbit-bullets {
+	display: none;
+}
+
+.wrap .orbit-container {
+	background: transparent;
+}
+
+.wrap .orbit-container .orbit-slide-number {
+	display: none;
+}
+
+.wrap .orbit-container .orbit-timer {
+	display: none;
+}
+
+.sectionHeader {
+	font-family: 'Racing Sans One', cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 3em;
+	letter-spacing: 1px;
+	color: $racingRed;
+}
+
+.extraSpacing {
+	letter-spacing: 1px;
+}
+
+.activeThumb {
+	border: 0px solid transparent;
+}
+
+#drivers .driverList ul li a img {
+	width: 33.33333%;
+	height: 33.33333%;
+}
+
+.thumbs {
+	overflow: hidden;
+
+	li {
+		margin-top: 7px;
+	}
+}
+
+.driverStats {
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+
+	table {
+		background: none;
+		border: none;
+
+		tbody {
+			background: none;
+		}
+
+		th {
+			text-align: center;
+			font-size: 1em;
+			color: $racingRed;
+			padding: 0 30px;
+		}
+
+		.statDetails {
+			background: none;
+		}
+
+		td {
+			text-align: center;
+			background: none;
+			font-size: 1.5em;
+			color: #fff;
+			padding: 10px 30px;
+		}
+	}
+}
+
+.driverList ul li {
+	display: inline;
+	margin-right: 20px;
+
+	img {
+		margin-top: 20px;
+	}
+}
+
+footer {
+	background-color: #111;
+	padding: 20px 10px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+
+	ul {
+		margin-bottom: 0;
+	}
+
+	ul li {
+		display: inline;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		margin-right: 5px;
+
+		a {
+			color: #fff;
+		}
+
+		a:hover {
+			color: $racingRed;
+		}
+	}
+
+	.nameFooter {
+		float: right;
+		font-weight: bold;
+	}
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 48em) {
+
+
+	#drivers, #crashZone {
+		margin-top: 10px;
+	}
+
+	.raceTrack {
+		margin-bottom: 30px;
+	}
+
+	.thumbs img {
+		width: 25%;
+		float: left;
+		margin: 10px;
+	}
+
+	.raceTrack img {
+		width: 100%;
+	}
+
+	.driverStats table
+
+		th {
+			font-size: 0.8em;
+			padding: 0 20px 0 0;
+		}
+
+		td {
+			font-size: 1em;
+			overflow: hidden;
+			padding: 10px 20px 0 0;
+		}
+
+	.orbit-caption {
+		display: none;
+	}
+
+	.nameFooter {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 48em) {
+
+	.wrap {
+		margin: 0 10%;
+	}
+
+	.activeThumb {
+		border: 2px solid $racingRed;
+	}
+
+	#drivers .driverList ul li a img {
+		width: 300px;
+		height: 200px;
+	}
+
+}
+
+@media screen and (max-width: 58.75em) {
+
+	#drivers, #crashZone {
+		margin-top: 20px;
+	}
+
+	.driverStats table {
+
+		th {
+			padding: 0 30px 0 0;
+		}
+
+		td {
+			padding: 10px 30px 0 0;
+		}
+	}
+
+}

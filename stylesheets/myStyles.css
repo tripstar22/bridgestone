@@ -1,0 +1,297 @@
+/* line 5, ../sass/myStyles.scss */
+body {
+  background-image: url(../images/bg.png);
+  width: 100%;
+}
+
+/* line 10, ../sass/myStyles.scss */
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #eee;
+}
+
+/* line 14, ../sass/myStyles.scss */
+nav {
+  position: fixed;
+  top: 0;
+  color: #111;
+  z-index: 1;
+}
+
+/* line 21, ../sass/myStyles.scss */
+ul {
+  list-style: none;
+}
+
+/* line 25, ../sass/myStyles.scss */
+footer ul li a:hover {
+  color: #e01910;
+}
+
+/* line 29, ../sass/myStyles.scss */
+.wrap {
+  margin: 0 5%;
+}
+
+/* line 33, ../sass/myStyles.scss */
+#undefined-sticky-wrapper {
+  z-index: 1;
+}
+
+/* line 37, ../sass/myStyles.scss */
+#featuredDriver {
+  margin-top: 30px;
+}
+
+/* line 41, ../sass/myStyles.scss */
+#featuredDriver .orbit-prev {
+  display: none;
+}
+
+/* line 45, ../sass/myStyles.scss */
+#featuredDriver .orbit-next {
+  display: none;
+}
+
+/* line 49, ../sass/myStyles.scss */
+#drivers, #crashZone {
+  margin-top: 50px;
+}
+
+/* line 53, ../sass/myStyles.scss */
+.top-bar {
+  width: 100%;
+}
+
+/* line 57, ../sass/myStyles.scss */
+.top-bar-section ul li {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 61, ../sass/myStyles.scss */
+.driverHeader {
+  margin-bottom: 0px;
+}
+
+/* line 65, ../sass/myStyles.scss */
+.mapPattern {
+  z-index: 1;
+}
+
+/* line 69, ../sass/myStyles.scss */
+.driverInfo {
+  margin-top: 20px;
+}
+
+/* line 73, ../sass/myStyles.scss */
+.orbit-bullets {
+  display: none;
+}
+
+/* line 77, ../sass/myStyles.scss */
+.wrap .orbit-container {
+  background: transparent;
+}
+
+/* line 81, ../sass/myStyles.scss */
+.wrap .orbit-container .orbit-slide-number {
+  display: none;
+}
+
+/* line 85, ../sass/myStyles.scss */
+.wrap .orbit-container .orbit-timer {
+  display: none;
+}
+
+/* line 89, ../sass/myStyles.scss */
+.sectionHeader {
+  font-family: 'Racing Sans One', cursive;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3em;
+  letter-spacing: 1px;
+  color: #e01910;
+}
+
+/* line 98, ../sass/myStyles.scss */
+.extraSpacing {
+  letter-spacing: 1px;
+}
+
+/* line 102, ../sass/myStyles.scss */
+.activeThumb {
+  border: 0px solid transparent;
+}
+
+/* line 106, ../sass/myStyles.scss */
+#drivers .driverList ul li a img {
+  width: 33.33333%;
+  height: 33.33333%;
+}
+
+/* line 111, ../sass/myStyles.scss */
+.thumbs {
+  overflow: hidden;
+}
+/* line 114, ../sass/myStyles.scss */
+.thumbs li {
+  margin-top: 7px;
+}
+
+/* line 119, ../sass/myStyles.scss */
+.driverStats {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+/* line 124, ../sass/myStyles.scss */
+.driverStats table {
+  background: none;
+  border: none;
+}
+/* line 128, ../sass/myStyles.scss */
+.driverStats table tbody {
+  background: none;
+}
+/* line 132, ../sass/myStyles.scss */
+.driverStats table th {
+  text-align: center;
+  font-size: 1em;
+  color: #e01910;
+  padding: 0 30px;
+}
+/* line 139, ../sass/myStyles.scss */
+.driverStats table .statDetails {
+  background: none;
+}
+/* line 143, ../sass/myStyles.scss */
+.driverStats table td {
+  text-align: center;
+  background: none;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+/* line 153, ../sass/myStyles.scss */
+.driverList ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/* line 157, ../sass/myStyles.scss */
+.driverList ul li img {
+  margin-top: 20px;
+}
+
+/* line 162, ../sass/myStyles.scss */
+footer {
+  background-color: #111;
+  padding: 20px 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+/* line 170, ../sass/myStyles.scss */
+footer ul {
+  margin-bottom: 0;
+}
+/* line 174, ../sass/myStyles.scss */
+footer ul li {
+  display: inline;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 5px;
+}
+/* line 180, ../sass/myStyles.scss */
+footer ul li a {
+  color: #fff;
+}
+/* line 184, ../sass/myStyles.scss */
+footer ul li a:hover {
+  color: #e01910;
+}
+/* line 189, ../sass/myStyles.scss */
+footer .nameFooter {
+  float: right;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 48em) {
+  /* line 199, ../sass/myStyles.scss */
+  #drivers, #crashZone {
+    margin-top: 10px;
+  }
+
+  /* line 203, ../sass/myStyles.scss */
+  .raceTrack {
+    margin-bottom: 30px;
+  }
+
+  /* line 207, ../sass/myStyles.scss */
+  .thumbs img {
+    width: 25%;
+    float: left;
+    margin: 10px;
+  }
+
+  /* line 213, ../sass/myStyles.scss */
+  .raceTrack img {
+    width: 100%;
+  }
+
+  /* line 219, ../sass/myStyles.scss */
+  .driverStats table
+  th {
+    font-size: 0.8em;
+    padding: 0 20px 0 0;
+  }
+
+  /* line 224, ../sass/myStyles.scss */
+  td {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 10px 20px 0 0;
+  }
+
+  /* line 230, ../sass/myStyles.scss */
+  .orbit-caption {
+    display: none;
+  }
+
+  /* line 234, ../sass/myStyles.scss */
+  .nameFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 48em) {
+  /* line 242, ../sass/myStyles.scss */
+  .wrap {
+    margin: 0 10%;
+  }
+
+  /* line 246, ../sass/myStyles.scss */
+  .activeThumb {
+    border: 2px solid #e01910;
+  }
+
+  /* line 250, ../sass/myStyles.scss */
+  #drivers .driverList ul li a img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 58.75em) {
+  /* line 259, ../sass/myStyles.scss */
+  #drivers, #crashZone {
+    margin-top: 20px;
+  }
+
+  /* line 265, ../sass/myStyles.scss */
+  .driverStats table th {
+    padding: 0 30px 0 0;
+  }
+  /* line 269, ../sass/myStyles.scss */
+  .driverStats table td {
+    padding: 10px 30px 0 0;
+  }
+}
